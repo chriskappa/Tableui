@@ -4,13 +4,13 @@ export type TransactionItem = {
     date: string,
     id: number,
     merchant: string
-}
+};
 
-export type TableHeaderItem = { id: number, label: string }
+export type TableHeaderItem = { id: number, label: string };
 
-export type TransactionTableProps = { transactions: TransactionItem[] | [], tableHeaders: TableHeaderItem[], noDataMessage?: string }
+export type TransactionTableProps = { transactions: TransactionItem[] | [], tableHeaders: TableHeaderItem[], noDataMessage?: string };
 
-export type TableSkeletonProps = { length?: number }
+export type TableSkeletonProps = { length?: number };
 
 export type TableRowsProps = { transactions?: TransactionItem[], noTableRowsMessage?: string };
 
