@@ -11,7 +11,7 @@ function App() {
 
   if (error) return (
     <div className='h-screen flex justify-center container items-center mx-auto'>
-      <ErrorMessage message={error.message} />
+      <ErrorMessage message={error?.message} />
     </div>
   )
 
